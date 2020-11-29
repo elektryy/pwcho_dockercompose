@@ -23,7 +23,7 @@ services:
  mysql:
   build:
    context: ./mysql
-   dockerfile: Dockerfile
+   dockerfile: Dockerfile.debian
   restart: always
   environment:
    MYSQL_ROOT_PASSWORD: "admin"
